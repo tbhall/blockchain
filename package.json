@@ -1,0 +1,31 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain cli",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "bin": {
+    "blockchain": "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbhall/blockchain.git"
+  },
+  "author": "Tyler Hall",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "vorpal": "^1.12.0",
+    "vorpal-log": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tbhall/blockchain/issues"
+  },
+  "homepage": "https://github.com/tbhall/blockchain#readme"
+}
