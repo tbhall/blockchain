@@ -31,6 +31,66 @@ $ npm install
 $ npm start
 ```
 
+## Usage
+
+These are the current Usages of this cli. To be able to use these commands you will need to run ``` npm start ```.
+
+#### Genesis
+  
+  Example:
+  
+  ```bash
+  $ genesis data for blockchain 
+  ```
+
+  Usage: genesis [options] <data...>
+
+  Alias: g
+
+  This creates a Genesis Block.
+
+  Options:
+
+    --help  output usage information
+
+#### Mine
+  
+  Example:
+  
+  ```bash
+  $ mine data for blockchain 
+  ```
+  
+  Usage: mine [options] <data...>
+
+  Alias: m
+
+  Mine a new block. Eg: mine data
+
+  Options:
+
+    --help     output usage information
+    -a, --all  Show all values fully
+
+#### List all
+
+  Example:
+  
+  ```bash
+  $ list
+  ```
+  
+  Usage: list [options]
+
+  Alias: l
+
+  See the current state of the blockchain.
+
+  Options:
+
+    --help     output usage information
+    -a, --all  Show all values fully
+
 ## FAQ
 
 #### When or why I would use this?
